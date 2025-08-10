@@ -1,0 +1,60 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+out/
+.tmp/
+temp/
+
+# Logs
+logs
+*.log
+pnpm-debug.log*
+
+# IDE & editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# React Native specific
+android/app/build/
+ios/build/
+ios/Pods/
+*.xcworkspace
+
+# React Native cache
+.expo/
+.expo-shared/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+package-lock.json
+yarn.lock
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Binary assets
+*.apk
+*.aab
+
+# Others
+coverage/
