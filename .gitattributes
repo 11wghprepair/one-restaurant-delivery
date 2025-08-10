@@ -1,0 +1,17 @@
+# Enforce LF line endings for all text files
+* text=auto eol=lf
+
+# Windows-specific scripts (batch files) keep CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Mark binary files to avoid line ending changes
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.exe binary
+*.dll binary
